@@ -20,12 +20,12 @@ else if (activity === "walk" && energy > 0) {
 }
 else 
 {
-alert("Not enough energy to enjoy a walk");
+console.log("Not enough energy to enjoy a walk");
 };
   
 };
 
-alert(name + " has " + happiness + " happiness and " + energy + " energy levels.");
+console.log(name + " has " + happiness + " happiness and " + energy + " energy levels.");
 
 
 
